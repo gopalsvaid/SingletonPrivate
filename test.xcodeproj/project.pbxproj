@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22E81B6D1CB2417A00CB46AF /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E81B6C1CB2417A00CB46AF /* Singleton.m */; };
 		22EFA97F1C9925D500C814BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EFA97E1C9925D500C814BA /* main.m */; };
 		22EFA9821C9925D500C814BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EFA9811C9925D500C814BA /* AppDelegate.m */; };
 		22EFA9851C9925D500C814BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EFA9841C9925D500C814BA /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22E81B6B1CB2417A00CB46AF /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		22E81B6C1CB2417A00CB46AF /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
 		22EFA97A1C9925D500C814BA /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22EFA97E1C9925D500C814BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		22EFA9801C9925D500C814BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				22EFA9811C9925D500C814BA /* AppDelegate.m */,
 				22EFA9831C9925D500C814BA /* ViewController.h */,
 				22EFA9841C9925D500C814BA /* ViewController.m */,
+				22E81B6B1CB2417A00CB46AF /* Singleton.h */,
+				22E81B6C1CB2417A00CB46AF /* Singleton.m */,
 				22EFA9861C9925D500C814BA /* Main.storyboard */,
 				22EFA9891C9925D500C814BA /* Assets.xcassets */,
 				22EFA98B1C9925D500C814BA /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				22EFA9851C9925D500C814BA /* ViewController.m in Sources */,
 				22EFA9821C9925D500C814BA /* AppDelegate.m in Sources */,
+				22E81B6D1CB2417A00CB46AF /* Singleton.m in Sources */,
 				22EFA97F1C9925D500C814BA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +502,7 @@
 				22EFA9A91C9925D500C814BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22EFA9AA1C9925D500C814BA /* Build configuration list for PBXNativeTarget "testTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				22EFA9AC1C9925D500C814BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22EFA9AD1C9925D500C814BA /* Build configuration list for PBXNativeTarget "testUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				22EFA9AF1C9925D500C814BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

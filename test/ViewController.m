@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Singleton.h"
 
 @interface ViewController ()
 
@@ -14,10 +15,26 @@
 
 @implementation ViewController
 
+
+
+
+
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
+    // can not make any where in the application
+    
+     // Singleton *sssh=[[Singleton alloc]init];
+    //  sssh.testString=@"asdf";
+    
+    // always used in this way
+    [Singleton sharedInstance].testString = @"heloo";
+    
+  
+   }
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

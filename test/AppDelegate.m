@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Singleton.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [Singleton sharedInstance].testString=@"hello";
+    NSLog(@"hello: %@",[Singleton sharedInstance].testString);
+    
     return YES;
 }
 
